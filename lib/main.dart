@@ -5,9 +5,16 @@ void main() {
       home: Scaffold(
     body: Container(
       decoration: const BoxDecoration(
-          gradient: LinearGradient(colors: [Colors.amber, Colors.red])),
+          gradient: LinearGradient(
+            colors: [
+              Colors.amber,
+              Colors.red],
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight
+              ),
+            ),
       child: const Center(
-        child: Text('this is the text'),
+        child: Text('tis is the the'),
       ),
     ),
   )));
