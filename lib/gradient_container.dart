@@ -17,7 +17,7 @@ class GradientContainer extends StatelessWidget{
               ),
             ),
       child: const Center(
-        child: Text('Custome Widget build'),
+        child: Text('Custome Widget build', style: TextStyle(color:Colors.white,fontSize: 20),),
       ),
     );
   }
